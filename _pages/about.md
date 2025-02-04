@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "Always remember, if you ain't first, you're last." Ricky Bobby
 
 profile:
   align: right
@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+A GPU enthusiast, OpenCL grown then CUDA and Slang coder. I've interested myself throughout the years with various research projects, including gravitational wave search, microbiological image analysis and finally with nuclear imaging. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current focus is on developing algorithms for different probelms during the [myocardial perfusion imaing](https://en.wikipedia.org/wiki/Myocardial_perfusion_imaging) [SPECT](https://en.wikipedia.org/wiki/Single-photon_emission_computed_tomography) protocol. I've focused on various issues involving motion estimation, reconstruction, segmentation and reorentation. During these problems I have mostly programmed in `C++`, `CUDA`, `Python`, `GLSL`, `Docker`, `CMake`, `GCN, RDNA3 ASM`. For graphics I have been focusing on `Vulkan`.
