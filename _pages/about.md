@@ -20,11 +20,6 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 A GPU enthusiast, OpenCL grown then CUDA and Slang coder. I've interested myself throughout the years with various research projects, including gravitational wave search, microbiological image analysis and finally with nuclear imaging. 
