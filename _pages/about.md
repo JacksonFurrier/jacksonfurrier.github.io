@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Always remember, if you ain't first, you're last." Ricky Bobby
+subtitle: Always remember, if you ain't first, you're last. - Ricky Bobby
 
 profile:
   align: right
