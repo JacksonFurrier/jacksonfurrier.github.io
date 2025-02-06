@@ -50,8 +50,14 @@ _styles: >
 ---
 
 ## Topic
+Single-Photon Emission Computed Tomography (SPECT) protocols for left ventricular assessment play a crucial role in detecting ischemia in high-risk patients. To quantitatively evaluate myocardial function, clinicians rely on commercially available solutions for segmenting and reorienting the left ventricle (LV). These solutions are developed using extensive normal datasets, however this approach is having many drawbacks
 
-In this paper, we present a new mathematical method that synthesizes normal data sets for quantification of regional myocardium perfusion. In clinical practice, regional myocardial perfusion is often measured with a gamma camera and quantified via circumferential profile analysis. Normal reference profile data is used to increase the accuracy of the clinical interpretations. Our goal is to create reference data from an existing set of archived studies. An iterative mathematical method, based on two statistical hypotheses, was used to generate the study set instead of collecting normal examinations from a healthy population. Clinical validation is based on interpretations by six independent observers. Results of evaluation with synthesized normal data and its validation are presented.
+* Whenever a new aperture is being developed a new normal database has to be created to get good quantitative evaluations
+* Normal database establishment carries a high cost and time consuming slowing down the development iteration time of collimators
+* Clinics often screen patients with suspectible cardiac deficiency and rarely healthy individuals, making the creation of normal databases extra work
+* The size of these datasets are fixed and normalized, which might leave out important samples from the distribution
+
+One idea of Kari and Partos to create normal datasets based on badly conditioned cardiac data using only the "normal" subsets of these samples. A mathematical method was developed that synthesizes normal data sets for quantification of regional myocardium perfusion. In clinical practice, regional myocardial perfusion is often measured with a gamma camera and quantified via circumferential profile analysis. Normal reference profile data is used to increase the accuracy of the clinical interpretations. The goal here is to create reference data from an existing set of archived studies. An iterative mathematical method, based on two statistical hypotheses, was used to generate the study set instead of collecting normal examinations from a healthy population.
 
 ---
 
