@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -89,17 +89,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2025/seg_lv_optim/";
-        
-      },
-    },{id: "post-monte-carlo-based-reconstruction-method-for-mph-collimators",
-      
-        title: "Monte carlo-based reconstruction method for MPH collimators",
-      
-      description: "Dynamic acquisition oriented monte carlo simulation of gamma-photon transport",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/rec_mc_torch/";
         
       },
     },{id: "post-motion-correction-of-multi-pinhole-mph-projection-frames-with-metamorphosis",
