@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "I am PhD candidate at Eötvös Loránd University, deparment of Computer Algebra.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
