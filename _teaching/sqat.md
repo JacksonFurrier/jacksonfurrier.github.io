@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Software Quality And Testing
-description: with background image
+description: Unit testing basics
 img: assets/img/sqat.png
 importance: 1
 category: work
