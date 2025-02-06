@@ -47,9 +47,9 @@ _styles: >
 
 ## Topic
 
-Single-Photon Emission Computed Tomography (SPECT) left ventricular assessment protocols are important for detecting ischemia in high-risk patients. To quantitatively measure myocardial function, clinicians depend on commercially available solutions to segment and reorient the left ventricle (LV) for evaluation. Based on large normal datasets, the segmentation performance and the high price of these solutions can hinder the availability of reliable and precise localization of the LV delineation. To overcome the aforementioned shortcomings this paper aims to give a recipe for diagnostic centers as well as for clinics to automatically segment the myocardium based on small and low-quality labels on reconstructed SPECT, complete field-of-view (FOV) volumes.
+Single-Photon Emission Computed Tomography (SPECT) left ventricular assessment protocols are important for detecting ischemia in high-risk patients. To quantitatively measure myocardial function, clinicians depend on commercially available solutions to segment and reorient the left ventricle (LV) for evaluation. Based on large normal datasets, the segmentation performance and the high price of these solutions can hinder the availability of reliable and precise localization of the LV delineation. To overcome the aforementioned shortcomings this project aims to give a recipe for diagnostic centers as well as for clinics to automatically segment the myocardium based on small and low-quality labels on reconstructed SPECT, complete field-of-view (FOV) volumes.
 
-A self-supervised learning (SSL) approach was developed in [1] with convolutional neural networks (CNN). The technique was based on jigsaw puzzle as a pretext task and supervision on 5 patients as fine-tuning. The method reached good performance on various metrics, however on hypoperfused myocardium it wasn’t able to get acceptable results. A way to enhance the technique is to apply methods from Vision transformers (ViT) on some parts of the architecture and training as well [2]. Furthermore the incorporation of shape information about left ventricles can raise the performance of such methods.
+A self-supervised learning (SSL) approach was developed in [1] with convolutional neural networks (CNN). The technique was based on jigsaw puzzle as a pretext task and supervision on 5 patients as fine-tuning. The method reached good performance on various metrics, however on hypoperfused myocardia it wasn’t able to get acceptable results. A way to enhance the technique is to apply methods from Vision transformers (ViT) on some parts of the architecture and training as well [2], [3]. Furthermore the incorporation of shape information about left ventricles can raise the performance of such methods.
 
 ---
 
@@ -64,6 +64,10 @@ Develop a ViT-based SSL few-shot learning method and investigate the incorporati
 [1] [Self-supervised segmentation of myocardial perfusion imaging SPECT left ventricles](https://dl.acm.org/doi/pdf/10.1145/3632047.3632078), Adam et al.
 
 [2] [A new method incorporating deep learning with shape priors for left ventricular segmentation in myocardial perfusion SPECT images](https://www.sciencedirect.com/science/article/pii/S0010482523004195?casa_token=T2dI_3cEndIAAAAA:kPV9wHN_07raKCy6hzW_5CJfFA0AjxmV9yXDoZg6o8l2Z7dKvwGKFE27_pJRpPov6sG2tjsAE-c), Fubau et al.
+
+[3] [UNETR: Transformers for 3D Medical Image Segmentation](https://openaccess.thecvf.com/content/WACV2022/papers/Hatamizadeh_UNETR_Transformers_for_3D_Medical_Image_Segmentation_WACV_2022_paper.pdf)
+
+
 
 ---
 

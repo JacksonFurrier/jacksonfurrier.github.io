@@ -54,7 +54,7 @@ giscus_comments: false
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="comp110" class="card-title"><a href="https://22s.comp110.com">Models in Nuclear Cardiology</a></h5>
+        <h5 id="comp110" class="card-title"><a href="https://github.com/JacksonFurrier/MINC">Models in Nuclear Cardiology</a></h5>
         <h6 class="card-subtitle font-italic">Hybrid (COMING SOON)</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
