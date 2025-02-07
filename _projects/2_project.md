@@ -23,7 +23,7 @@ tikzjax: true
 typograms: true
 
 authors:
-  - name: Adam Istvan szucs
+  - name: Adam Istvan Szucs
     url: "jacksonfurrier.github.io"
     affiliations:
       name: ELTE, Budapest
