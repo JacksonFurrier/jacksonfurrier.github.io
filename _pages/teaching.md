@@ -54,7 +54,7 @@ giscus_comments: false
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="comp110" class="card-title"><a href="https://github.com/JacksonFurrier/MINC">Models in Nuclear Cardiology</a></h5>
+        <h5 id="comp110" class="card-title"><a href="https://jacksonfurrier.github.io/models_nuclear_cardiology/">Models in Nuclear Cardiology</a></h5>
         <h6 class="card-subtitle font-italic">Hybrid (COMING SOON)</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -70,7 +70,7 @@ giscus_comments: false
             Webpage and the contents are being created for the course
           </div>
           <div class="col-sm-3">
-            <a href="https://github.com/JacksonFurrier/MINC">MINC</a>
+            <a href="https://github.com/JacksonFurrier/models_nuclear_cardiology/">MINC</a>
           </div>
         </div>
       </li>
