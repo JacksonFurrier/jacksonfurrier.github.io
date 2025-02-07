@@ -49,9 +49,11 @@ _styles: >
   }
 ---
 
-## Background
+## Introduction
 
-Mathematical inverse problems are hard
+The main theory behind reconstruction methods are the [inverse problems](https://en.wikipedia.org/wiki/Inverse_problem), which can be described as how one can calculate the casual factors from a set of observed samples. This methodology of going backwards or in inverse path from the measured quantities to the original distribution of some phenomena called reconstruction. 
+
+The main focus here is on Single-photon emission computed tomography (SPECT), where the data and the reconstruction methods, so do the optimization techniques are aimed to exploit the Poisson nature of the gamma photon detection in these systems. For a mathematically more elaborate discussion, please take a look at [spect data modelling](https://jacksonfurrier.github.io/models_nuclear_cardiology/topics/e_spect_data_math.html).
 
 ---
 
