@@ -57,7 +57,7 @@ To treat and heal vital organ damage, it is essential to identify the optimal co
 
 After identifying the tissue area to be improved, the next step is to deliver the appropriate regenerative method—whether a specific cell family or meta-tissue—to the target area. It is necessary to investigate the applicability of modern methods such as cell ionization and robotic catheters. Continuous monitoring of the target area's vitality is crucial using advanced imaging techniques, which require the development of AI-based methods capable of recognizing diverse image characteristics with high efficiency. To establish the necessary initial database and network architecture for solving this problem, several preclinical studies are planned during the research development project. Following the establishment of validated and functional preclinical methods, we will proceed with optimizing localization procedures and AI-based optimization.
 
-## Cardiological Alterations in Acute Post-infection Patients
+## Cardiological alterations in acute post-infection patients
 As a result of infection, severe cases may lead to a hyper-inflammatory state, causing secondary organ inflammation (heart, liver, brain) and subsequent damage.
 
 Tissue damage can generally be classified into two categories: significant cardiac strain due to acute pneumonia and secondary inflammatory diseases such as myocarditis. The latter often leads to chronic damage, measurable through various quantitative indicators. The most severe consequences include arrhythmia, coronary artery syndromes, and increased lymphocyte and T-cell destruction. Damage beyond the left ventricular myocardial region can also cause pulmonary embolism, potentially leading to right ventricular failure.
