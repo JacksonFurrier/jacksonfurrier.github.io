@@ -99,7 +99,7 @@ giscus_comments: false
             Webpage and the contents are being created for the course
           </div>
           <div class="col-sm-3">
-            <a href="https://jacksonfurrier.github.io/innovation_and_entrepreneurship">MINC</a>
+            <a href="https://jacksonfurrier.github.io/innovation_and_entrepreneurship">IAE</a>
           </div>
         </div>
       </li>
