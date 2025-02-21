@@ -58,7 +58,9 @@ Develop a `CUDA` based monte carlo projector with the utilization of pytorch.
 
 To understand the different parts of this complex approach one needs to master the following materials
 
-1. 
+1. The book on photon transport <d-cite key="lux2018monte"></d-cite> with a focus on variance reduction techniques, these are mostly for the transport simulation
+2. Convex optimization by Boyd <d-cite key="boyd2004convex"></d-cite> is must have for the optimization part of the algorithm
+3. [CUDA programming](https://docs.nvidia.com/cuda/cuda-c-programming-guide/) by nvidia, a good reference will give you an idea about the hardware and the language constructs to program GPUs (in this time only by using CUDA)
 
 ---
 
