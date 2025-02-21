@@ -126,9 +126,9 @@ ninja.data = [{
           description: "A deep learning approach to help the development of regenerative medicine for heart disease",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-monte-carlo-based-reconstruction-for-multi-pinhole-apertures-and-dynamic-acquisitions",
-          title: 'Monte Carlo based reconstruction for Multi-pinhole apertures and dynamic acquisitions',
-          description: "Aiming for absolute perfusion in myocardial dynamic studies with 3-headed MPH cameras",
+            },},{id: "projects-monte-carlo-based-reconstruction-for-dynamic-acquisitions-in-spect",
+          title: 'Monte Carlo based reconstruction for dynamic acquisitions in SPECT',
+          description: "Aiming for absolute perfusion in myocardial dynamic studies",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-tinygrad-rdna3-asm",
