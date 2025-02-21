@@ -61,6 +61,12 @@ To understand the different parts of this complex approach one needs to master t
 1. The book on photon transport <d-cite key="lux2018monte"></d-cite> with a focus on variance reduction techniques, these are mostly for the transport simulation
 2. Convex optimization by Boyd <d-cite key="boyd2004convex"></d-cite> is must have for the optimization part of the algorithm
 3. [CUDA programming](https://docs.nvidia.com/cuda/cuda-c-programming-guide/) by nvidia, a good reference will give you an idea about the hardware and the language constructs to program GPUs (in this time only by using CUDA)
+4. `C++` build systems, especially `CMake`, there a few good videos on the topic
+  * [Effective CMake](https://youtu.be/bsXLMQ6WgIk?si=PtT6EV5Ao89Gip0c)
+  * [Better Cmake](https://www.youtube.com/watch?v=ffwB60oKr-w&list=PL8i3OhJb4FNV10aIZ8oF0AA46HgA2ed8g)
+  * [More modern CMake](https://youtu.be/y7ndUhdQuU8?si=viznz9hC0LIbsKSm)
+  * [More modern CMake 2](https://youtu.be/TsddSCzYiRs?si=v03zjc-mXgfVQOYM)
+
 
 ---
 
