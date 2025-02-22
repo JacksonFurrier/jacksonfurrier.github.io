@@ -24,7 +24,7 @@ authors:
     affiliations:
       name: ELTE, Budapest
 
-bibliography: 2018-12-22-distill.bib
+bibliography: 1_project_mc.bib
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -53,21 +53,17 @@ We seek a method, which overcomes one of the biggest effects of acquired imperfe
 
 The theory (geo mc) is based on a metamorphic control problem with Optimal Transport (OT) augmentation to overcome the problems introduced by the acquired artifacts and intrinsic imaging system. The algorithm is designed on multi-pinhole (MPH) and low energy high resolution (LEHR) collimation with promising a great improvement over Optial Flow (OF) methods. The aim is to further lower the error in total perfusion deficit (TPD) scores for practical ability to apply on the patient Single-Photon Emission Computed Tomography (SPECT) studies as well.
 
----
-
 ## Task
 
-Develop the [technique](https://github.com/JacksonFurrier/ieee_bibm_2024_code) further, based on [1], [2] to get better results on MPH apertures with motion phenomena.
+Develop the [technique](https://github.com/JacksonFurrier/ieee_bibm_2024_code) further, based on <d-cite key="szHucs2024projection"></d-cite>, <d-cite key="szHucs2019automated"></d-cite> to get better results on MPH apertures with motion phenomena.
 
----
+## Background materials
 
-## References
+To understand the different parts of this complex approach one needs to master the following materials
 
-[1] [Projection geometry invariant nonrigid motion correction](http://dx.doi.org/10.1109/BIBM62325.2024.10822170), Adam et. al.
-
-[2] [Automated non-linear motion detection and estimation for MPI SPECT](http://dx.doi.org/10.1109/GPMC48183.2019.9106957), Adam et. al.
-
----
+0. Get a good understanding of python with numpy, the brief introduction is written at [numpy for matlab programmers](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html). Numpy and pytorch are quite similar, for a hands on tutorial consult [pytorch intro](https://pytorch.org/tutorials/beginner/basics/intro.html)
+1. Get a good understanding of LDDMM based on the book <d-cite key="younes2010shapes"></d-cite> and further read the Hamiltonian formalism <d-cite key="miller2015hamiltonian"></d-cite>
+2. Understand the difference between the *Lagrangian* vs *Hamiltonian*, try to approach it from a *Calculus of Variations* point of view
 
 ## Contact
 
