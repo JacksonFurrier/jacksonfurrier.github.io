@@ -28,7 +28,7 @@ authors:
     affiliations:
       name: SOTE, Budapest
 
-bibliography: 2018-12-22-distill.bib
+bibliography: 1_project_dbase.bib
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -59,21 +59,18 @@ Single-Photon Emission Computed Tomography (SPECT) protocols for left ventricula
 
 One idea of Kari and Partos to create normal datasets based on badly conditioned cardiac data using only the "normal" subsets of these samples. A mathematical method was developed that synthesizes normal data sets for quantification of regional myocardium perfusion. In clinical practice, regional myocardial perfusion is often measured with a gamma camera and quantified via circumferential profile analysis. Normal reference profile data is used to increase the accuracy of the clinical interpretations. The goal here is to create reference data from an existing set of archived studies. An iterative mathematical method, based on two statistical hypotheses, was used to generate the study set instead of collecting normal examinations from a healthy population.
 
----
-
 ## Task
 
-Develop a method based on [1], [2] which can generate normal data from a reference dataset of ill-conditioned patients.
-
----
-
-## References
-
-[1] [Mathematical generation of normal data for evaluating myocardial perfusion studies](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1175084&casa_token=YDjkMXjuuUgAAAAA:V-1R4nhJLftTOlbcZwyMXq9BCxbanE9vAN7ub3sZUx4yyxrVxyS0tT0SjUxWSkn75PHHSMHNabhVqw), Marianna et. al.
+Develop a method based on <d-cite key="nagy2002mathematical"></d-cite>, [2] which can generate normal data from a reference dataset of ill-conditioned patients.
 
 [2] Osszehasonlito adatok eloallitasa bull's-eye kepek ertekelesehez, Mate et. a.
 
----
+## Background materials
+
+To understand the different parts of this complex approach one needs to master the following materials
+
+0. Get a good understanding of python with numpy, the brief introduction is written at [numpy for matlab programmers](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html). Numpy and pytorch are quite similar, for a hands on tutorial consult [pytorch intro](https://pytorch.org/tutorials/beginner/basics/intro.html)
+1. Statistical methods and optimal transport based on <d-cite key="peyre2019computational"></d-cite>
 
 ## Contact
 
