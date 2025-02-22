@@ -24,7 +24,7 @@ authors:
     affiliations:
       name: ELTE, Budapest
 
-bibliography: 1_project_ssl.bib
+bibliography: 1_project_seg_ssl.bib
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -60,8 +60,7 @@ Develop a ViT-based SSL few-shot learning method and investigate the incorporati
 To understand and contribute to the project, the following materials help a lot
 
 1. Pytorch, the book [Deep Learning With Pytorch](https://www.manning.com/books/deep-learning-with-pytorch) is one of the best on the topic of pytorch and deep learning
-2. To get a good understanding on protein folding, structure and the role of amino acids check out the book [Deep Learning for life sciences](https://www.oreilly.com/library/view/deep-learning-for/9781492039822/). Chapters 1, (2), 6, 9, (11) are interesting.
-3. If one needs further knowledge on deep learning there is great introductory book Simone Scardapane, [Alice's adventures in differentiable wonderland](https://www.sscardapane.it/assets/alice/Alice_book_volume_1.pdf). This is a great approach, I strongly suggest to read it
+2. If one needs further knowledge on deep learning there is great introductory book Simone Scardapane, [Alice's adventures in differentiable wonderland](https://www.sscardapane.it/assets/alice/Alice_book_volume_1.pdf). This is a great approach, I strongly suggest to read it
 
 
 ## Contact
