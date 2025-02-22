@@ -24,7 +24,7 @@ authors:
     affiliations:
       name: ELTE, Budapest
 
-bibliography: 2018-12-22-distill.bib
+bibliography: 1_project_ssl.bib
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -49,27 +49,20 @@ _styles: >
 
 Single-Photon Emission Computed Tomography (SPECT) left ventricular assessment protocols are important for detecting ischemia in high-risk patients. To quantitatively measure myocardial function, clinicians depend on commercially available solutions to segment and reorient the left ventricle (LV) for evaluation. Based on large normal datasets, the segmentation performance and the high price of these solutions can hinder the availability of reliable and precise localization of the LV delineation. To overcome the aforementioned shortcomings this project aims to give a recipe for diagnostic centers as well as for clinics to automatically segment the myocardium based on small and low-quality labels on reconstructed SPECT, complete field-of-view (FOV) volumes.
 
-A self-supervised learning (SSL) approach was developed in [1] with convolutional neural networks (CNN). The technique was based on jigsaw puzzle as a pretext task and supervision on 5 patients as fine-tuning. The method reached good performance on various metrics, however on hypoperfused myocardia it wasn’t able to get acceptable results. A way to enhance the technique is to apply methods from Vision transformers (ViT) on some parts of the architecture and training as well [2], [3]. Furthermore the incorporation of shape information about left ventricles can raise the performance of such methods.
-
----
+A self-supervised learning (SSL) approach was developed in <d-cite key="szHucs2023self"></d-cite> with convolutional neural networks (CNN). The technique was based on jigsaw puzzle as a pretext task and supervision on 5 patients as fine-tuning. The method reached good performance on various metrics, however on hypoperfused myocardia it wasn’t able to get acceptable results. A way to enhance the technique is to apply methods from Vision transformers (ViT) <d-cite key="dosovitskiy2020image"></d-cite> on some parts of the architecture and training as well <d-cite key="zhu2023new"></d-cite>, <d-cite key="hatamizadeh2022unetr"></d-cite>. Furthermore the incorporation of shape information about left ventricles can raise the performance of such methods.
 
 ## Task
 
 Develop a ViT-based SSL few-shot learning method and investigate the incorporation of shape information in the optimization process.
 
----
+## Backgound materials
 
-## References
+To understand and contribute to the project, the following materials help a lot
 
-[1] [Self-supervised segmentation of myocardial perfusion imaging SPECT left ventricles](https://dl.acm.org/doi/pdf/10.1145/3632047.3632078), Adam et al.
+1. Pytorch, the book [Deep Learning With Pytorch](https://www.manning.com/books/deep-learning-with-pytorch) is one of the best on the topic of pytorch and deep learning
+2. To get a good understanding on protein folding, structure and the role of amino acids check out the book [Deep Learning for life sciences](https://www.oreilly.com/library/view/deep-learning-for/9781492039822/). Chapters 1, (2), 6, 9, (11) are interesting.
+3. If one needs further knowledge on deep learning there is great introductory book Simone Scardapane, [Alice's adventures in differentiable wonderland](https://www.sscardapane.it/assets/alice/Alice_book_volume_1.pdf). This is a great approach, I strongly suggest to read it
 
-[2] [A new method incorporating deep learning with shape priors for left ventricular segmentation in myocardial perfusion SPECT images](https://www.sciencedirect.com/science/article/pii/S0010482523004195?casa_token=T2dI_3cEndIAAAAA:kPV9wHN_07raKCy6hzW_5CJfFA0AjxmV9yXDoZg6o8l2Z7dKvwGKFE27_pJRpPov6sG2tjsAE-c), Fubau et al.
-
-[3] [UNETR: Transformers for 3D Medical Image Segmentation](https://openaccess.thecvf.com/content/WACV2022/papers/Hatamizadeh_UNETR_Transformers_for_3D_Medical_Image_Segmentation_WACV_2022_paper.pdf)
-
-
-
----
 
 ## Contact
 
