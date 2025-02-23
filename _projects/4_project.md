@@ -5,7 +5,7 @@ description: Assembly backend for tinygrad, to check how much power can we unlea
 img: assets/img/proj_tiny.png
 importance: 2
 category: fun
-giscus_comments: true
+giscus_comments: false
 ---
 
 
