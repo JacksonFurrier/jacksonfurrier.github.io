@@ -3,7 +3,7 @@ layout: distill
 title: MPI SPECT left ventricle modelling with flow-matching
 description: Shape manifold representation learning
 tags: distill formatting
-giscus_comments: true
+giscus_comments: false
 date: 2025-02-06
 featured: true
 mermaid:

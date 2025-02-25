@@ -3,7 +3,7 @@ layout: distill
 title: Mathematical generation of normal data for evaluating myocardial perfusion studies
 description: Generating normal databases from non-healthy patients
 tags: distill formatting
-giscus_comments: true
+giscus_comments: false
 date: 2025-02-06
 featured: true
 mermaid:

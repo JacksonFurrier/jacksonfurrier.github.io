@@ -3,7 +3,7 @@ layout: distill
 title: Optimization methods in left ventricle segmentation
 description: Classical optimization methods in left ventricle segmentation
 tags: distill formatting
-giscus_comments: true
+giscus_comments: false
 date: 2025-02-06
 featured: true
 mermaid:

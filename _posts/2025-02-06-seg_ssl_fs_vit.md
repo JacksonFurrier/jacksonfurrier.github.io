@@ -3,7 +3,7 @@ layout: distill
 title: Self-supervised few-shot learning in left ventricle segmentation
 description: Problems with low labeled left ventricle segmentation in MPI SPECT
 tags: distill formatting
-giscus_comments: true
+giscus_comments: false
 date: 2025-02-06
 featured: true
 mermaid:

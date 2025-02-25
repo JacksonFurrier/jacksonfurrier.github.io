@@ -3,7 +3,7 @@ layout: distill
 title: Motion correction of Multi-pinhole (MPH) projection frames with metamorphosis
 description: Non-linear and projective geometry based motion detection and correction
 tags: distill formatting
-giscus_comments: true
+giscus_comments: false
 date: 2025-02-06
 featured: true
 mermaid:

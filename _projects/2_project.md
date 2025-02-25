@@ -5,7 +5,7 @@ description: A deep learning approach to help the development of regenerative me
 img: assets/img/proj_protein.jpg
 importance: 1
 category: work
-giscus_comments: true
+giscus_comments: false
 tags: distill formatting
 giscus_comments: false
 date: 2025-02-06
