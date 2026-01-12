@@ -155,7 +155,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/szűcs-ádám-25644368", "_blank");
+          window.open("https://www.linkedin.com/in/ádám-istván-szűcs-b0a7b4382", "_blank");
         },
       },{
         id: 'social-mastodon',
